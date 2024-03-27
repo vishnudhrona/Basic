@@ -5,7 +5,7 @@ import Adminrouter from "./Router/Adminrouter"
 function App() {
 
   return (
-  <BrowserRouter basename="/admin">
+  <BrowserRouter>
   <Routes>
     <Route path="/*" element={<Userrouter />} />
     <Route path="/admin/*" element={<Adminrouter />} />
